@@ -1,0 +1,21 @@
+{
+    "name": "mrferos/cli-router",
+    "description": "An easy to use CLI Router",
+    "require": {
+        "league/container": "~1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CLIRouter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andres Galindo",
+            "email": "me@andresgalindo.us"
+        }
+    ]
+}
